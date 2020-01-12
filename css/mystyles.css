@@ -43,31 +43,48 @@
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
+.tile .is-child, .heading-card > .card-content, .current-work-cards > div > div {
+  box-shadow: 5px 5px 15px 2.5px rgba(0, 0, 0, 0.15); }
+
 .is-facebook {
   background-color: #4267B2 !important;
   border: none !important; }
   .is-facebook span {
     color: #ffffff !important; }
   .is-facebook:hover {
-    background-color: #000 !important; }
+    background-color: #657786 !important; }
+    .is-facebook:hover span {
+      color: #fff !important; }
 
 .is-twitter {
   background-color: #1DA1F2 !important;
   border: none !important; }
   .is-twitter span {
     color: #ffffff !important; }
+  .is-twitter:hover {
+    background-color: #657786 !important; }
+    .is-twitter:hover span {
+      color: #fff !important; }
 
 .is-youtube {
   background-color: #FF0000 !important;
   border: none !important; }
   .is-youtube span {
     color: #ffffff !important; }
+  .is-youtube:hover {
+    background-color: #282828 !important; }
+    .is-youtube:hover span {
+      color: #fff !important; }
 
 .is-email {
   background-color: #fe9300 !important;
   border: none !important; }
   .is-email span {
     color: #ffffff !important; }
+  .is-email:hover {
+    background-color: #fefc28 !important; }
+    .is-email:hover span {
+      color: #000 !important; }
 
 .section-branding-graphic div p span {
   color: green; }

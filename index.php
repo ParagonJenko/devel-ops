@@ -13,10 +13,10 @@ require_once("includes/head.php"); ?>
     <!-- / Navbar -->
 
     <section class="hero heading-hero is-medium">
-        <div class="hero-body">
+        <div class="hero-body brand-color">
             <div class="container has-text-centered">
-                <h1 class="title brand-font is-size-1">Devel-Ops</h1>
-                <h2 class="subtitle brand-font is-size-3">Design & Development</h2>
+                <h1 class="title brand-font brand-color is-size-1">Devel-Ops</h1>
+                <h2 class="subtitle brand-font brand-color is-size-3">Design & Development</h2>
             </div>
         </div>
     </section>
@@ -86,7 +86,7 @@ require_once("includes/head.php"); ?>
 
         <hr>
 
-        <section class="section-card current-work-cards has-text-centered">
+        <section class="section-card has-text-centered">
 
             <div class="card heading-card">
                 <div class="card-content">
@@ -96,7 +96,7 @@ require_once("includes/head.php"); ?>
                 </div>
             </div>
 
-            <div class="columns">
+            <div class="columns current-work-cards">
                 <!--  -->
                 <div class="column">
                     <div class="card">

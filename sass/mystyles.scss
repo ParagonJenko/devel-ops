@@ -97,6 +97,10 @@ $navbar-background-color: $branding-background;
     margin-bottom: 2rem;
 }
 
+// Tiles
+.tile .is-child, .heading-card > .card-content, .current-work-cards > div > div {
+    box-shadow: 5px 5px 15px 2.5px rgba(0, 0, 0, 0.15);
+}
 
 // Buttons
 .is-facebook {
@@ -106,7 +110,10 @@ $navbar-background-color: $branding-background;
     }
     border: none !important;
     &:hover {
-        background-color: $facebook-background-hover !important;
+        background-color: $twitter-background-hover !important;
+        span {
+            color: #fff !important;
+        }
     }
 }
 
@@ -116,6 +123,12 @@ $navbar-background-color: $branding-background;
         color: $twitter-foreground !important;
     }
     border: none !important;
+    &:hover {
+        background-color: $twitter-background-hover !important;
+        span {
+            color: #fff !important;
+        }
+    }
 }
 
 .is-youtube {
@@ -124,6 +137,12 @@ $navbar-background-color: $branding-background;
         color: $youtube-foreground !important;
     }
     border: none !important;
+    &:hover {
+        background-color: $youtube-background-hover !important;
+        span {
+            color: #fff !important;
+        }
+    }
 }
 
 .is-email {
@@ -132,6 +151,12 @@ $navbar-background-color: $branding-background;
         color: #ffffff !important; 
     }
     border: none !important;
+    &:hover {
+        background-color: $branding-accent-1 !important;
+        span {
+            color: #000 !important;
+        }
+    }
 }
 
 // Icons
