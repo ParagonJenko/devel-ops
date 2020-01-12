@@ -3,7 +3,11 @@
 
 <!-- Head -->
 <?php $title = "Devel-Ops";
-require_once("includes/head.php"); ?>
+require_once("includes/head.php"); 
+$facebookURL = "https://www.facebook.com/developsweb";
+$twitterURL = "https://www.twitter.com/developsweb";
+$youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
+?>
 <!-- / Head -->
 
 <body style="background-color: aliceblue;">
@@ -43,7 +47,7 @@ require_once("includes/head.php"); ?>
                             </article>
                             <article class="tile is-child notification is-warning">
                                 <p class="title">Website Development</p>
-                                <p class="subtitle">Need a custom website application, get in touch!</p>
+                                <p class="subtitle">Need a custom website application, or want to know what you need to build one? Feel free to get in touch with us!</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
@@ -76,7 +80,7 @@ require_once("includes/head.php"); ?>
                                 <p class="subtitle">Posters <span><i class="fas fa-check-circle icon-branding-graphic"></i></span></p>
                             </div>
                             <div class="box">
-                                <p class="subtitle">Banners <span><i class="fas fa-check-circle icon-branding-graphic"></i></span></p>
+                                <p class="subtitle">And more...</p>
                             </div>
                         </div>
                     </article>
@@ -104,7 +108,7 @@ require_once("includes/head.php"); ?>
                             <div class="content">
                                 <h4>Our current development project:</h4>
                                 <p>Project Pew</p>
-                                <a class="button is-youtube" href="mailto:request@develops.com">
+                                <a class="button is-youtube" href="<?php echo $youtubeURL; ?>">
                                     <span class="icon">
                                         <i class="fab fa-youtube"></i>
                                     </span>
@@ -126,6 +130,19 @@ require_once("includes/head.php"); ?>
                                     </span>
                                     <span>Email us!</span>
                                 </a>
+                                <hr>
+                                <p>Or get in touch on our social media.</p>
+                                <div class="columns footer-social-media">
+                                    <div class="column">
+                                        <a href="<?php echo $facebookURL; ?>"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="<?php echo $twitterURL; ?>"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="<?php echo $youtubeURL; ?>"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -137,6 +154,7 @@ require_once("includes/head.php"); ?>
                             <div class="content">
                                 <h4>Our current design project:</h4>
                                 <p>Ourselves! We're currently working on this website, our social media accounts and developing our blog.</p>
+                                <hr>
                                 <span class="tag is-rounded is-medium is-info">Last Updated: 12th January 2020</span>
                             </div>
                         </div>
