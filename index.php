@@ -2,7 +2,7 @@
 <html>
 
 <!-- Head -->
-<?php $title = "Devel-Ops";
+<?php $title = "Devel-Ops - Design & Development";
 require_once("includes/head.php"); 
 $facebookURL = "https://www.facebook.com/developsweb";
 $twitterURL = "https://www.twitter.com/developsweb";
