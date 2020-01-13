@@ -108,11 +108,11 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                             <div class="content">
                                 <h4>Our current development project:</h4>
                                 <p>Project Pew</p>
-                                <a class="button is-youtube" href="<?php echo $youtubeURL; ?>">
+                                <a class="button is-youtube is-block is-fixed-height height-200" href="<?php echo $youtubeURL; ?>">
                                     <span class="icon">
                                         <i class="fab fa-youtube"></i>
                                     </span>
-                                    <span>Stay tuned for our series on YouTube!</span>
+                                    <span>Our Devel-Ogs!</span>
                                 </a>
                             </div>
                         </div>
