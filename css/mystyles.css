@@ -46,6 +46,15 @@
 .tile .is-child, .heading-card > .card-content, .current-work-cards > div > div {
   box-shadow: 5px 5px 15px 2.5px rgba(0, 0, 0, 0.15); }
 
+.portfolio-img.full-width {
+  max-width: 100%; }
+
+.portfolio-img.half-width {
+  max-width: 50%; }
+
+.portfolio-img.quarter-width {
+  max-width: 25%; }
+
 .is-facebook {
   background-color: #4267B2 !important;
   border: none !important; }

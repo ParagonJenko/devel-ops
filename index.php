@@ -3,7 +3,7 @@
 
 <!-- Head -->
 <?php $title = "Devel-Ops - Design & Development";
-require_once("includes/head.php"); 
+require_once("includes/head.php");
 $facebookURL = "https://www.facebook.com/developsweb";
 $twitterURL = "https://www.twitter.com/developsweb";
 $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
@@ -163,6 +163,135 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 <!--  -->
             </div>
 
+        </section>
+
+        <hr>
+
+        <section class="section-card">
+
+            <div class="card heading-card has-text-centered">
+                <div class="card-content">
+                    <div class="content">
+                        <h3 class="title">What have <span class="brand-color">Devel-Ops</span> done?</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <!--  -->
+                    <div class="tile">
+                        <!--  -->
+                        <div class="tile is-parent is-vertical">
+                            <!--  -->
+                            <article class="tile is-child box">
+                                <p class="title">Blu-Fire</p>
+                                <p>
+                                    I previously developed branding for a startup called Blu-Fire. 
+                                    It was quite a short project but I am very proud of how the end product looked. 
+                                    I provided both the logos displayed along with a grayscale version and the editable files.</p>
+                                <hr>
+                                <div class="columns">
+                                    <div class="column">
+                                        <img class="portfolio-img full-width" src="images\portfolio\blu-fire\blu-fire-black-text.png">
+                                    </div>
+                                    <div class="column">
+                                        <img class="portfolio-img full-width" src="images\portfolio\blu-fire\blu-fire-white-text.png">
+                                    </div>
+                                </div>
+                                <hr>
+                                <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
+                            </article>
+                            <!--  -->
+                            <article class="tile is-child box">
+                                <p class="title"><a target="_blank" href="https://paragon-gaming.co.uk">Paragon Gaming Website</a></p>
+                                <p>
+                                    Paragon Gaming is a media group that provides entertainment through both Twitch and YouTube.
+                                    In the past I also created videos under the group so I built a website that showcased the <a href="https://www.twitch.tv/paragongreeny">Twitch.tv stream</a>.
+                                </p>
+                                <hr>
+                                <a target="_blank" href="https://www.paragon-gaming.co.uk"><img class="portfolio-img full-width" src="images\portfolio\paragon-gaming\website-screenshot.png"></a>
+                                <hr>
+                                <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
+                            </article>
+                        </div>
+                        <!--  -->
+                        <div class="tile is-parent">
+                            <article class="tile is-child box">
+                                <p class="title"><a target="_blank" href="https://www.justgiving.com/team/TeamHB">Team HB for Team Theo September Skydive</a></p>
+                                <p>
+                                    I decided to conquer one of my biggest fears this year, which is heights. Specifically 15,000 feet (roughly 5km) above ground.
+                                    As part of my fundraising efforts I decided to put my graphic design skills to use and make my own promotional media.
+                                </p>
+                                <p>Interested in supporting my incredibly reckless yet exciting endeavour? <a target="_blank" href="https://www.justgiving.com/fundraising/alexjenko">Here's the link to the fundraising page.</a></p>
+                                <hr>
+                                <a target="_blank" href="https://www.justgiving.com/fundraising/alexjenko"><img class="portfolio-img full-width" src="images\portfolio\TeamHB\skydive-jenko-poster.png"></a>
+                                <hr>
+                                <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
+                                <!-- <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                                </figure> -->
+                            </article>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!--  -->
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-success">
+                            <p class="title">Could your project be here?</p>
+                            <p class="subtitle">Contact us by any of our social media or by email at <a href="mailto:requests@devel-ops.com">requests@devel-ops.com</a></p>
+                        </article>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <p class="title"><a target="_blank" href="https://www.facebook.com/huaaps">Social Media & Graphics for Hull University Airsoft Society</a></p>
+                        <p>During my time at University I joined the Airsoft society as it's a sport I love. I managed the social media, edited graphics and created videos during the 19/20 academic year.</p>
+                        <p>If you want to check out the videos I made there is a <a target="_blank" href="https://www.youtube.com/channel/UC4fMwbb0ISaMRcXW6-_svtQ">YouTube channel</a>
+                            and a <a target="_blank" href="https://www.facebook.com/pg/huaaps/videos/">Facebook page</a>.</p>
+                        <hr>
+                        <!--  -->
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <img class="portfolio-img" src="images\portfolio\huaaps\jenko-kaiah-unedited.jpg">
+                                </div>
+                                <div class="column">
+                                    <img class="portfolio-img" src="images\portfolio\huaaps\jenko-kaiah-edited.jpg">
+                                </div>
+                            </div>
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\jenko-lucas-kaiah-unedited.jpg">
+                                </div>
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\jenko-lucas-kaiah-edited.jpg">
+                                </div>
+                            </div>
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\wiktor-unedited.jpg">
+                                </div>
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\wiktor-edited.jpg">
+                                </div>
+                            </div>
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\jenko-kaiah-window-unedited.jpg">
+                                </div>
+                                <div class="column">
+                                    <img src="images\portfolio\huaaps\jenko-kaiah-window-edited.jpg">
+                                </div>
+                            </div>
+                        <!--  -->
+                        <hr>
+                        <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
+                    </article>
+                </div>
+                <!--  -->
+            </div>
         </section>
 
     </section>

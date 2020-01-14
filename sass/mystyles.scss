@@ -102,6 +102,20 @@ $navbar-background-color: $branding-background;
     box-shadow: 5px 5px 15px 2.5px rgba(0, 0, 0, 0.15);
 }
 
+// Images
+.portfolio-img {
+    &.full-width {
+        max-width: 100%;
+    }
+    &.half-width {
+        max-width: 50%;
+    }
+    &.quarter-width {
+        max-width: 25%;
+    }
+}
+
+
 // Button
 .is-facebook {
     background-color: $facebook-background !important;
