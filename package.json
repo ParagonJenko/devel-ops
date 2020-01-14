@@ -8,8 +8,11 @@
     "node-sass": "^4.9.2"
   },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.min.css --output-style compressed",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
+  },
+  "dependencies": {
+    "lazysizes": "^5.2.0"
   }
 }

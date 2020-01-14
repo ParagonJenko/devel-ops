@@ -4,7 +4,7 @@
     font-family: 'LIBRARY3AM';
     src: url('../font/LIBRARY3AM.eot');
     src: url('../font/LIBRARY3AM.eot?#iefix') format('embedded-opentype'),
-            url('../font/LIBRARY3AM.svg#LIBRARY3AM') format('svg'),
+            url('/font/LIBRARY3AM.svg#LIBRARY3AM') format('svg'),
             url('../font/LIBRARY3AM.ttf') format('truetype'),
             url('../font/LIBRARY3AM.woff') format('woff');
     font-weight: normal;
@@ -29,18 +29,12 @@ $branding-accent-1: #fefc28;
 $branding-accent-2: #fe9300;
 $branding-accent-3: #d4cdab;
 
-// Font
-@font-face {
-    font-family: 'Library3am';
-    src: url("font/library3am.otf") format('opentype');
-}
-
 // Navbar
 $navbar-height: 4rem;
 $navbar-background-color: $branding-background;
 
 .brand-font {
-    font-family: "Library3am";
+    font-family: "LIBRARY3AM";
 }
 
 .brand-color {

@@ -5,7 +5,7 @@
     <meta name="description" content="Devel-Ops is a Design & Development business, creating affordable digital solutions for individuals and small businesses."> 
     <meta name="og:title" property="og:title" content="Devel-Ops, a Design & Development Business!"> 
 
-    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="css/mystyles.min.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png?v=69B7MAN7Oq">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png?v=69B7MAN7Oq">

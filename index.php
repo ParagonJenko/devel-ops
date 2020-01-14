@@ -61,8 +61,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                     <div class="tile is-parent">
                         <article class="tile is-child notification is-danger">
                             <p class="title">Get in touch with us!</p>
-                            <p class="subtitle">Email us at <a class="" href="mailto:request@develops.com">requests@devel-ops.com!</a></p>
-
+                            <p class="subtitle">Email us at <a target="_blank" class="" href="mailto:request@develops.com">requests@devel-ops.com!</a></p>
                         </article>
                     </div>
                 </div>
@@ -108,7 +107,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                             <div class="content">
                                 <h4>Our current development project:</h4>
                                 <p>Project Pew</p>
-                                <a class="button is-youtube is-block is-fixed-height height-200" href="<?php echo $youtubeURL; ?>">
+                                <a target="_blank" class="button is-youtube is-block is-fixed-height height-200" href="<?php echo $youtubeURL; ?>">
                                     <span class="icon">
                                         <i class="fab fa-youtube"></i>
                                     </span>
@@ -124,7 +123,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                         <div class="card-content">
                             <div class="content">
                                 <h4>Want a project?</h4>
-                                <a class="button is-email" href="mailto:request@develops.com">
+                                <a class="button is-email" target="_blank" href="mailto:request@develops.com">
                                     <span class="icon">
                                         <i class="far fa-envelope"></i>
                                     </span>
@@ -134,13 +133,13 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                                 <p>Or get in touch on our social media.</p>
                                 <div class="columns footer-social-media">
                                     <div class="column">
-                                        <a href="<?php echo $facebookURL; ?>"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+                                        <a target="_blank" href="<?php echo $facebookURL; ?>"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="column">
-                                        <a href="<?php echo $twitterURL; ?>"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+                                        <a target="_blank" href="<?php echo $twitterURL; ?>"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="column">
-                                        <a href="<?php echo $youtubeURL; ?>"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+                                        <a target="_blank" href="<?php echo $youtubeURL; ?>"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -193,10 +192,12 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                                 <hr>
                                 <div class="columns">
                                     <div class="column">
-                                        <img class="portfolio-img full-width" src="images\portfolio\blu-fire\blu-fire-black-text.png">
+                                        <img class="portfolio-img full-width lazyload" data-src="images\portfolio\blu-fire\blu-fire-black-text.jpg"  
+                                        alt="Image of Blu-Fire logo with black text.">
                                     </div>
                                     <div class="column">
-                                        <img class="portfolio-img full-width" src="images\portfolio\blu-fire\blu-fire-white-text.png">
+                                        <img class="portfolio-img full-width lazyload" data-src="images\portfolio\blu-fire\blu-fire-white-text.jpg"  
+                                        alt="Image of Blu-Fire logo with white text.">
                                     </div>
                                 </div>
                                 <hr>
@@ -204,13 +205,17 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                             </article>
                             <!--  -->
                             <article class="tile is-child box">
-                                <p class="title"><a target="_blank" href="https://paragon-gaming.co.uk">Paragon Gaming Website</a></p>
+                                <p class="title"><a target="_blank" rel="noreferrer" href="https://paragon-gaming.co.uk">Paragon Gaming Website</a></p>
                                 <p>
                                     Paragon Gaming is a media group that provides entertainment through both Twitch and YouTube.
-                                    In the past I also created videos under the group so I built a website that showcased the <a href="https://www.twitch.tv/paragongreeny">Twitch.tv stream</a>.
+                                    In the past I also created videos under the group so I built a website that showcased the 
+                                    <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/paragongreeny">Twitch.tv stream</a>.
                                 </p>
                                 <hr>
-                                <a target="_blank" href="https://www.paragon-gaming.co.uk"><img class="portfolio-img full-width" src="images\portfolio\paragon-gaming\website-screenshot.png"></a>
+                                <a target="_blank" rel="noreferrer" href="https://www.paragon-gaming.co.uk">
+                                <img class="portfolio-img full-width lazyload" data-src="images\portfolio\paragon-gaming\website-screenshot.jpg" 
+                                alt="Image of Paragon Gaming UK website.">
+                                </a>
                                 <hr>
                                 <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
                             </article>
@@ -225,12 +230,11 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                                 </p>
                                 <p>Interested in supporting my incredibly reckless yet exciting endeavour? <a target="_blank" href="https://www.justgiving.com/fundraising/alexjenko">Here's the link to the fundraising page.</a></p>
                                 <hr>
-                                <a target="_blank" href="https://www.justgiving.com/fundraising/alexjenko"><img class="portfolio-img full-width" src="images\portfolio\TeamHB\skydive-jenko-poster.png"></a>
+                                <a target="_blank" href="https://www.justgiving.com/fundraising/alexjenko">
+                                    <img class="portfolio-img full-width lazyload" data-src="images\portfolio\TeamHB\skydive-jenko-poster.jpg" alt="Skydiving promotional poster">
+                                </a>
                                 <hr>
                                 <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
-                                <!-- <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/640x480.png">
-                                </figure> -->
                             </article>
                         </div>
                         <!--  -->
@@ -239,7 +243,9 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                     <div class="tile is-parent">
                         <article class="tile is-child notification is-success">
                             <p class="title">Could your project be here?</p>
-                            <p class="subtitle">Contact us by any of our social media or by email at <a href="mailto:requests@devel-ops.com">requests@devel-ops.com</a></p>
+                            <p class="subtitle">Contact us by any of our social media or by email at 
+                                <a href="mailto:requests@devel-ops.com">requests@devel-ops.com</a>
+                            </p>
                         </article>
                     </div>
                     <!--  -->
@@ -247,42 +253,53 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 <!--  -->
                 <div class="tile is-parent">
                     <article class="tile is-child box">
-                        <p class="title"><a target="_blank" href="https://www.facebook.com/huaaps">Social Media & Graphics for Hull University Airsoft Society</a></p>
+                        <p class="title"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/huaaps">Social Media & Graphics for Hull University Airsoft Society</a></p>
                         <p>During my time at University I joined the Airsoft society as it's a sport I love. I managed the social media, edited graphics and created videos during the 19/20 academic year.</p>
-                        <p>If you want to check out the videos I made there is a <a target="_blank" href="https://www.youtube.com/channel/UC4fMwbb0ISaMRcXW6-_svtQ">YouTube channel</a>
-                            and a <a target="_blank" href="https://www.facebook.com/pg/huaaps/videos/">Facebook page</a>.</p>
+                        <p>If you want to check out the videos I made there is a 
+                            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC4fMwbb0ISaMRcXW6-_svtQ">YouTube channel</a>
+                            and a 
+                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/pg/huaaps/videos/">Facebook page</a>
+                            .</p>
                         <hr>
                         <!--  -->
                             <div class="columns is-gapless">
                                 <div class="column">
-                                    <img class="portfolio-img" src="images\portfolio\huaaps\jenko-kaiah-unedited.jpg">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\jenko-kaiah-unedited.jpg" 
+                                    alt="Image of Jenko and Kaiah posing.">
                                 </div>
                                 <div class="column">
-                                    <img class="portfolio-img" src="images\portfolio\huaaps\jenko-kaiah-edited.jpg">
-                                </div>
-                            </div>
-                            <div class="columns is-gapless">
-                                <div class="column">
-                                    <img src="images\portfolio\huaaps\jenko-lucas-kaiah-unedited.jpg">
-                                </div>
-                                <div class="column">
-                                    <img src="images\portfolio\huaaps\jenko-lucas-kaiah-edited.jpg">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\jenko-kaiah-edited.jpg" 
+                                    alt="Image of Jenko and Kaiah posing but visually edited.">
                                 </div>
                             </div>
                             <div class="columns is-gapless">
                                 <div class="column">
-                                    <img src="images\portfolio\huaaps\wiktor-unedited.jpg">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\jenko-lucas-kaiah-unedited.jpg" 
+                                    alt="Image of three people with airsoft rifles posing.">
                                 </div>
                                 <div class="column">
-                                    <img src="images\portfolio\huaaps\wiktor-edited.jpg">
+                                    <img class="lazyload" data-src="images\portfolio\huaaps\jenko-lucas-kaiah-edited.jpg" 
+                                    alt="Image of three people with airsoft rifles posing but visually edited.">
                                 </div>
                             </div>
                             <div class="columns is-gapless">
                                 <div class="column">
-                                    <img src="images\portfolio\huaaps\jenko-kaiah-window-unedited.jpg">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\wiktor-unedited.jpg" 
+                                    alt="Image of someone squatting on the floor in airsoft gear.">
                                 </div>
                                 <div class="column">
-                                    <img src="images\portfolio\huaaps\jenko-kaiah-window-edited.jpg">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\wiktor-edited.jpg" 
+                                    alt="Image of someone squatting on the floor in airsoft gear but visually edited.">
+                                </div>
+                            </div>
+                            <div class="columns is-gapless">
+                                <div class="column">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\jenko-kaiah-window-unedited.jpg" 
+                                    alt="Image of Jenko and Kaiah aiming out a window with airsoft rifles.">
+                                </div>
+                                <div class="column">
+                                    <img class="portfolio-img lazyload" data-src="images\portfolio\huaaps\jenko-kaiah-window-edited.jpg" 
+                                    alt="Image of Jenko and Kaiah aiming out a window with airsoft rifles but visually edited.">
                                 </div>
                             </div>
                         <!--  -->
