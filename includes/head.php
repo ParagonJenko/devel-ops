@@ -17,4 +17,10 @@
     <meta name="msapplication-config" content="images/favicon/browserconfig.xml?v=69B7MAN7Oq">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="node_modules\scrollreveal\dist\scrollreveal.min.js"></script>
+
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+
 </head>

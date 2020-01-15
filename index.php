@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="sr">
 
 <!-- Head -->
 <?php $title = "Devel-Ops - Design & Development";
@@ -41,17 +41,17 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 <div class="tile is-vertical is-8">
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
-                            <article class="tile is-child notification is-primary">
+                            <article class="tile is-child notification is-primary instant-reveal">
                                 <p class="title">Web Design</p>
                                 <p class="subtitle">From template to bespoke websites, Wordpress to custom content management systems, we can do it all.</p>
                             </article>
-                            <article class="tile is-child notification is-warning">
+                            <article class="tile is-child notification is-warning reveal-200">
                                 <p class="title">Website Development</p>
                                 <p class="subtitle">Need a custom website application, or want to know what you need to build one? Feel free to get in touch with us!</p>
                             </article>
                         </div>
                         <div class="tile is-parent">
-                            <article class="tile is-child notification is-info">
+                            <article class="tile is-child notification is-info reveal-300">
                                 <p class="title">Social Media & Marketing</p>
                                 <p class="subtitle">Need help setting up your social media? Not sure what social media to use? We can help.</p>
                                 <p class="subtitle">We can also help you navigate and understand the digital marketing world!</p>
@@ -59,14 +59,14 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                         </div>
                     </div>
                     <div class="tile is-parent">
-                        <article class="tile is-child notification is-danger">
+                        <article class="tile is-child notification is-danger reveal-400">
                             <p class="title">Get in touch with us!</p>
                             <p class="subtitle">Email us at <a target="_blank" class="" href="mailto:request@develops.com">requests@devel-ops.com!</a></p>
                         </article>
                     </div>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child notification is-success">
+                    <article class="tile is-child notification is-success reveal-500">
                         <p class="title">Branding & Graphic Design</p>
                         <div class="section-branding-graphic">
                             <div class="box">
@@ -102,7 +102,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
             <div class="columns current-work-cards">
                 <!--  -->
                 <div class="column">
-                    <div class="card">
+                    <div class="card instant-reveal">
                         <div class="card-content">
                             <div class="content">
                                 <h4>Our current development project:</h4>
@@ -119,7 +119,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 </div>
                 <!--  -->
                 <div class="column">
-                    <div class="card">
+                    <div class="card reveal-200">
                         <div class="card-content">
                             <div class="content">
                                 <h4>Want a project?</h4>
@@ -148,7 +148,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 </div>
                 <!--  -->
                 <div class="column">
-                    <div class="card">
+                    <div class="card reveal-300">
                         <div class="card-content">
                             <div class="content">
                                 <h4>Our current design project:</h4>
@@ -183,7 +183,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                         <!--  -->
                         <div class="tile is-parent is-vertical">
                             <!--  -->
-                            <article class="tile is-child box">
+                            <article class="tile is-child box instant-reveal">
                                 <p class="title">Blu-Fire</p>
                                 <p>
                                     I previously developed branding for a startup called Blu-Fire. 
@@ -204,7 +204,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                                 <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
                             </article>
                             <!--  -->
-                            <article class="tile is-child box">
+                            <article class="tile is-child box reveal-200">
                                 <p class="title"><a target="_blank" rel="noreferrer" href="https://paragon-gaming.co.uk">Paragon Gaming Website</a></p>
                                 <p>
                                     Paragon Gaming is a media group that provides entertainment through both Twitch and YouTube.
@@ -222,7 +222,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                         </div>
                         <!--  -->
                         <div class="tile is-parent">
-                            <article class="tile is-child box">
+                            <article class="tile is-child box reveal-300">
                                 <p class="title"><a target="_blank" href="https://www.justgiving.com/team/TeamHB">Team HB for Team Theo September Skydive</a></p>
                                 <p>
                                     I decided to conquer one of my biggest fears this year, which is heights. Specifically 15,000 feet (roughly 5km) above ground.
@@ -241,7 +241,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                     </div>
                     <!--  -->
                     <div class="tile is-parent">
-                        <article class="tile is-child notification is-success">
+                        <article class="tile is-child notification is-success reveal-200">
                             <p class="title">Could your project be here?</p>
                             <p class="subtitle">Contact us by any of our social media or by email at 
                                 <a href="mailto:requests@devel-ops.com">requests@devel-ops.com</a>
@@ -252,7 +252,7 @@ $youtubeURL = "https://www.youtube.com/channel/UCTEOitKLDANeUvFY9uIJ6QA/";
                 </div>
                 <!--  -->
                 <div class="tile is-parent">
-                    <article class="tile is-child box">
+                    <article class="tile is-child box reveal-400">
                         <p class="title"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/huaaps">Social Media & Graphics for Hull University Airsoft Society</a></p>
                         <p>During my time at University I joined the Airsoft society as it's a sport I love. I managed the social media, edited graphics and created videos during the 19/20 academic year.</p>
                         <p>If you want to check out the videos I made there is a 
