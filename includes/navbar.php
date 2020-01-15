@@ -1,7 +1,7 @@
 <nav class="navbar is-transparent">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://devel-ops.com">
-            <img src="images/devel-ops-navbar-logo.png" alt="Devel-Ops: Design & Development" width="112" height="1000">
+            <img src="<?php echo $prefix; ?>images/devel-ops-navbar-logo.png" alt="Devel-Ops: Design & Development" width="112" height="1000">
         </a>
         <!-- <div class="navbar-burger burger" data-target="navbar">
             <span></span>
