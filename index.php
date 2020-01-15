@@ -180,7 +180,7 @@ require_once("includes/head.php");
                         <!--  -->
                         <div class="tile is-parent is-vertical">
                             <!--  -->
-                            <article class="tile is-child box instant-reveal">
+                            <article class="tile is-child box instant-reveal-portfolio">
                                 <p class="title">Blu-Fire</p>
                                 <p>
                                     I previously developed branding for a startup called Blu-Fire. 
@@ -201,7 +201,7 @@ require_once("includes/head.php");
                                 <p class="has-text-weight-light has-text-grey-light has-text-right">by Alex Jenkinson</p>
                             </article>
                             <!--  -->
-                            <article class="tile is-child box reveal-200">
+                            <article class="tile is-child box reveal-200-portfolio">
                                 <p class="title"><a target="_blank" rel="noreferrer" href="https://paragon-gaming.co.uk">Paragon Gaming Website</a></p>
                                 <p>
                                     Paragon Gaming is a media group that provides entertainment through both Twitch and YouTube.
@@ -219,7 +219,7 @@ require_once("includes/head.php");
                         </div>
                         <!--  -->
                         <div class="tile is-parent">
-                            <article class="tile is-child box reveal-300">
+                            <article class="tile is-child box reveal-300-portfolio">
                                 <p class="title"><a target="_blank" href="https://www.justgiving.com/team/TeamHB">Team HB for Team Theo September Skydive</a></p>
                                 <p>
                                     I decided to conquer one of my biggest fears this year, which is heights. Specifically 15,000 feet (roughly 5km) above ground.
@@ -238,7 +238,7 @@ require_once("includes/head.php");
                     </div>
                     <!--  -->
                     <div class="tile is-parent">
-                        <article class="tile is-child notification is-success reveal-200">
+                        <article class="tile is-child notification is-success reveal-200-portfolio">
                             <p class="title">Could your project be here?</p>
                             <p class="subtitle">Contact us by any of our social media or by email at 
                                 <a href="mailto:requests@devel-ops.com">requests@devel-ops.com</a>
@@ -249,7 +249,7 @@ require_once("includes/head.php");
                 </div>
                 <!--  -->
                 <div class="tile is-parent">
-                    <article class="tile is-child box reveal-400">
+                    <article class="tile is-child box reveal-400-portfolio">
                         <p class="title"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/huaaps">Social Media & Graphics for Hull University Airsoft Society</a></p>
                         <p>During my time at University I joined the Airsoft society as it's a sport I love. I managed the social media, edited graphics and created videos during the 19/20 academic year.</p>
                         <p>If you want to check out the videos I made there is a 
