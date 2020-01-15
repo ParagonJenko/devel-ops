@@ -16,24 +16,24 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                <button class="button is-youtube">
+                    <a href="<?php echo $youtubeURL; ?>" class="button is-youtube">
                         <span class="icon">
                             <i class="fab fa-youtube"></i>
                         </span>
                         <span>YouTube</span>
-                    </button>
-                    <button class="button is-twitter">
+                    </a>
+                    <a href="<?php echo $twitterURL; ?>" class="button is-twitter">
                         <span class="icon">
                             <i class="fab fa-twitter-square"></i>
                         </span>
                         <span>Twitter</span>
-                    </button>
-                    <button class="button is-facebook">
+                    </a>
+                    <a href="<?php echo $facebookURL; ?>" class="button is-facebook">
                         <span class="icon">
                             <i class="fab fab fa-facebook-square"></i>
                         </span>
                         <span>Facebook</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
